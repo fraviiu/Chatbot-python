@@ -1,0 +1,98 @@
+<aiml version="2.0" encoding="UTF-8">
+<item name="stripperregex" value="[^0-9a-zA-Zа-яА-Я]"/>
+<item name="culture" value="pt_BR"/>
+<!-- bot_dialog.aiml -->
+
+
+    <category>
+        <pattern>/girar</pattern>
+        <template>
+            <random>
+                <li> *Verdade* ou *desafio*??</li>
+            </random>
+        </template>
+    </category>
+
+        <category>
+        <pattern>Verdade</pattern>
+        <template>
+            <random>
+                <li> Qual a razão mais ridícula pelo qual você terminou com alguém? </li>
+                <li> Qual é a mania mais nojenta que você tem?</li>
+#
+                <li> Fale alguma coisa que tem no seu histórico de navegação que você ficaria constrangido se alguém visse.</li>
+#
+                <li> O que você faria se estivesse com dor de barriga e tivesse que fazer cocô em um banheiro público, mas acabasse o papel higiênico?</li>
+#
+                <li> Qual a coisa mais embaraçosa que você já fez bêbado?! </li>
+#
+                <li> Qual foi a pessoa mais aleatória que você já stalkeou nas redes sociais?</li>
+#
+                <li> Qual foi o pior presente que você já deu para alguém?</li>
+#
+                <li> Quantos dias você já passou sem tomar banho? </li>
+#
+                <li> Conte uma coisa que você espera que seus pais nunca descubram.</li>
+#
+                <li> O que a maioria das pessoas pensa que é verdade sobre você, mas não é?</li>
+                <li> Das pessoas nesta sala, com quem você mais gostaria de ficar? </li>
+
+                <li> Como você realmente se sente sobre "brincadeiras íntimas no ânus"? </li>
+
+                <li> Com que idade você "brincou com suas partes íntimas" pela primeira vez?</li>
+
+                <li> Conte uma fantasia íntima e "picante" que você nunca falou para ninguém.</li>
+
+                <li> Quais são os três adjetivos que melhor descrevem suas partes íntimas?! </li>
+                <li> Qual foi a coisa mais estranha que já te deixou excitado(a)?</li>
+
+                <li> Qual o seu marco mais memorável até agora (envolvendo relações íntimas com alguém)?</li>
+
+                <li> Qual seria a primeira coisa que você faria se acordasse por um dia sendo do gênero oposto?</li>
+
+                <li> Que atividade você nunca toparia fazer (durante uma relação íntima)?! </li>
+                <li> Você já mandou a mesma fotografia íntima para duas pessoas ao mesmo tempo? </li>
+
+                <li> Você já teve um sonho íntimo e "picante" com algum professor?</li>
+</random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>desafio</pattern>
+        <template>
+            <random>
+                <li> Vá até o banheiro e tire sua calcinha ou cueca, depois deixe-o na sua cabeça pelo resto do jogo Mande Foto.</li>
+
+                <li> Uma pessoa irá jogar algo no vaso sanitário e depois você tem que pegar de volta com as próprias mãos mande foto</li>
+                <li> Tente fazer malabarismos com 3 objetos que o grupo escolher mande o vídeo</li>
+                <li> Tente beber um copo de água (ou cerveja, caso tenha) usando os seus pés mande o vídeo</li>
+
+                <li> Molhe o rosto e passe farinha nele.</li>
+                <li> Ligue para um amigo e diga que está grávida ou que vai ser pai.! </li>
+                <li> Ligue para uma lanchonete ou pizzaria e tente desabafar com o atendente, dizendo que seu namorada (o) terminou contigo. </li>
+                <li> Ligue para sua mãe chorando dizendo que quer sua chupeta.</li>
+
+                <li> Ligue para o quinto contato no seu telefone e cante um trecho de uma música que o grupo escolher.</li>
+                <li> Finja que você é um peixe se debatendo fora d’água.! </li>
+                <li> Faça um chá com alguma coisa estranha (tipo uma meia) e depois beba. </li>
+                <li> Faça uma serenata para alguém do grupo.</li>
+
+                <li> Mande uma mensagem bem ousada para algum contato do seu celular "acidentalmente".</li>
+                <li> Vá na varanda e mostre suas partes íntimas.! </li>
+                <li> Tire uma fotografia íntima no banheiro e mostre para alguém do grupo por 5 segundos.</li>
+                <li> Envie uma mensagem de texto extremamente ousada e suja que você possa imaginar para todos aqui do grupo.</li>
+
+                <li> Tire uma peça de roupa a cada vez que você falar a palavra “não” durante o jogo.</li>
+                <li> Finja que está tendo relações íntimas com alguém.! </li>
+                <li> Mande uma fotografia semi-íntima para um contato do seu celular.</li>
+                <li> Use sua boca para abrir as calças de alguém de sua escolha.</li>
+
+                <li> Coma uma banana (ou enfie algo na boca) de forma muito insinuativa.</li>
+                <li> Responda os stories de alguém dizendo que a pessoa te deixou excitada.! </li>
+                <li> Passe um cubo de gelo da sua boca para a boca da pessoa à sua esquerda.</li>
+               
+            </random>
+        </template>
+    </category>
+</aiml>
