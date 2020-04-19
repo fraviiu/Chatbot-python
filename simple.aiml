@@ -3,16 +3,14 @@
     <category>
         <pattern>/girar</pattern>
         <template>
-            <random>
                 <li> *Verdade* ou *desafio*??</li>
-            </random>
         </template>
     </category>
 
         <category>
         <pattern>Verdade</pattern>
         <template>
-            <random>
+   
                 <li> Qual a razão mais ridícula pelo qual você terminou com alguém? </li>
                 <li> Qual é a mania mais nojenta que você tem?</li>
 #
@@ -50,14 +48,13 @@
                 <li> Você já mandou a mesma fotografia íntima para duas pessoas ao mesmo tempo? </li>
 
                 <li> Você já teve um sonho íntimo e "picante" com algum professor?</li>
-</random>
         </template>
     </category>
 
     <category>
         <pattern>desafio</pattern>
         <template>
-            <random>
+         
                 <li> Vá até o banheiro e tire sua calcinha ou cueca, depois deixe-o na sua cabeça pelo resto do jogo Mande Foto.</li>
 
                 <li> Uma pessoa irá jogar algo no vaso sanitário e depois você tem que pegar de volta com as próprias mãos mande foto</li>
@@ -88,7 +85,7 @@
                 <li> Responda os stories de alguém dizendo que a pessoa te deixou excitada.! </li>
                 <li> Passe um cubo de gelo da sua boca para a boca da pessoa à sua esquerda.</li>
                
-            </random>
+    
         </template>
     </category>
 </aiml>
