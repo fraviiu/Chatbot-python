@@ -12,7 +12,7 @@
 #VDD
 
 <category>
-<pattern>*Verdade*</pattern>
+<pattern>Verdade</pattern>
 <template>
 <random>
                 <li> Qual a razão mais ridícula pelo qual você terminou com alguém? </li>
