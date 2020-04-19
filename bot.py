@@ -12,7 +12,7 @@ kernel.learn("simple.aiml") # Abre o arquivo principal da AIML (que faz referên
 
 
 #token do telegram fornecido pelo botfather
-telegram = telepot.Bot('Token do Chatbot Telegram') 
+telegram = telepot.Bot('1284275711:AAFj5O62A5gyXBtFKet3gh5tEb8Br7njhUA') 
 
 #funcao utilizada para receber menssagens 
 def recebendoMSg(msg):
