@@ -6,10 +6,6 @@ import telepot #classe para faser conexao com telegram
 import aiml  #classe que faz nosso bot conversar
 import os
 import sys
-import time
-import random
-import datetime
-from telepot.loop import MessageLoop
 
 
 kernel = aiml.Kernel() #inicializa o bot
@@ -31,16 +27,6 @@ def recebendoMSg(msg):
 	#imprime a resposta na tela 
 	print(resp)
 
-def handle(msg):
-    chat_id = msg['chat']['id']
-    command = msg['text']
-
-    print 'Got command: %s' % command
-
-    if command == '/roll':
-        bot.sendMessage(chat_id, random.randint(1,6))
-    elif command == '/time':
-        bot.sendMessage(chat_id, str(datetime.datetime.now()))
 
 		
 telegram.message_loop(recebendoMSg)
