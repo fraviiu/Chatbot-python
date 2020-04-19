@@ -1,9 +1,5 @@
-<aiml version="2.0" encoding="UTF-8">
-<item name="stripperregex" value="[^0-9a-zA-Zа-яА-Я]"/>
-<item name="culture" value="pt_BR"/>
-<!-- bot_dialog.aiml -->
 
-
+<aiml>
     <category>
         <pattern>/girar</pattern>
         <template>
