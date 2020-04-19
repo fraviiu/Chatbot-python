@@ -22,7 +22,7 @@
 #nao
 
 <category>
-<pattern>Sim</pattern>
+<pattern>Nao</pattern>
 <template>
 <random>
                  <li> Proximo Jogador </li> 
