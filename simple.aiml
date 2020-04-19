@@ -4,6 +4,36 @@
 <template>Ola teste</template>
 </category>
 
+#aleatorio
+
+
+category>
+<pattern>*</pattern>
+<template>
+<random>
+                <li> Eu sou um bot, apenas um bot </li>
+                <li> Você pode criar um nome para mim, sou apenas um programa </li>
+                <li> Eu tenho certeza que sou um bot de bate-papo </li>
+                <li> Me criou como um bate-papo de bot. Todo dia eu fico mais esperto, então talvez eu já seja uma IA. </li>
+                <li> Eu sou um bot </li>
+                <li> Não entendo o que você está dizendo. </li>
+                <li> Boa história! É verdade que não entendo o que exatamente </li>
+                <li> Sto </li>
+                <li> Mmm, divertido </li>
+                <li> Você sabe como interromper o diálogo </li>
+                <li> Escreverei este texto para que você não pense que eu não te entendi </li>
+                <li> Bem, eu adivinhei </li>
+                <li> Pensamento interessante </li>
+                <li> Vou tentar lembrar disso </li>
+                <li> Curioso </li>
+                <li> AHAHAHAHAHAH, não, é apenas uma risada educada. Eu não entendo o que você está dizendo </li>
+                <li> Talvez você queira traduzir o texto? Escreva / traduza qualquer coisa </li>
+                <li> Limpar </li>
+                <li> Bem, mas você é uma boa pessoa </li>
+</random>
+</template>
+</category>
+   
 
 #sim
 <category>
