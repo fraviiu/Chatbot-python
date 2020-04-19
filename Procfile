@@ -1,3 +1,3 @@
-bot: python chatter.py
+bot: python bot.py
 
 
